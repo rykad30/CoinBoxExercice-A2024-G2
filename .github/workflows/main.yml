@@ -1,0 +1,10 @@
+name: CCoinBox test
+run-name: ${{ github.actor }}
+on: [push]
+jobs:
+  Run-All-tests:
+    runs-on: x64
+    steps:
+      - run: echo "Pushed Successfully"
+      
+    
